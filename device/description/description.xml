@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+	<specVersion>
+		<major>1</major>
+		<minor>0</minor>
+	</specVersion>
+	<device>
+		<deviceType>urn:schemas-upnp-org:device:MediaServer:1</deviceType>
+		<friendlyName>ArduinoLampe</friendlyName>
+		<manufacturer>FIP</manufacturer>
+		<manufacturerURL>http://www.fip.com</manufacturerURL>
+		<modelDescription>Manage the lights</modelDescription>
+		<modelName>Arduino Lampe FIP</modelName>
+		<modelNumber>1.0</modelNumber>
+		<modelURL>http://www.fip.com</modelURL>
+		<UDN>uuid:362d9414-31a0-48b6-b684-2b4bd38391d0</UDN>
+		<iconList>
+			<icon>
+				<mimetype>image/png</mimetype>
+				<width>16</width>
+				<height>16</height>
+				<depth>2</depth>
+				<url>icon.gif</url>
+			</icon>
+		</iconList>
+		<serviceList>
+			<service>
+				<serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType>
+				<serviceId>urn:schemas-upnp-org:service:ConnectionManager:1</serviceId>
+				<SCPDURL>service/name/description.xml</SCPDURL>
+				<controlURL>/service/name/ConnectionManager_control</controlURL>
+				<eventSubURL>/service/name/ConnectionManager_event</eventSubURL>
+			</service>
+		</serviceList>
+		<presentationURL>presentation.html</presentationURL>
+	</device>
+</root>
